@@ -1,0 +1,17 @@
+SetEnv PHP_VER 5
+SetEnv REGISTER_GLOBALS 0
+
+# SEO : redirect all 404 to /php/redir.php
+ErrorDocument 401 /php/redir.php
+ErrorDocument 403 /php/redir.php
+ErrorDocument 404 /php/redir.php
+ErrorDocument 500 /php/redir.php
+ErrorDocument 503 /php/redir.php
+ErrorDocument 504 /php/redir.php
+
+# Proxy Caching
+# 1 Month for most static assets
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico|svg|mp4)$">
+Header set Cache-Control "max-age=86400, public"
+</filesMatch>
+

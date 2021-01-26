@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /security/
+Allow: /research/
+Allow: /advisories/
+
+# Certain social media sites are whitelisted to allow crawlers to access page markups
+User-agent: Twitterbot
+Allow: /security
+
+#Sitemap
+Sitemap: https://toucan-system.com/sitemap.xml
+
+

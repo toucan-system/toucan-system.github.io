@@ -1,0 +1,22 @@
+{
+    "name": "Toucan System",
+    "short_name": "Toucan System",
+	"description": "Toucan System - Information Security Services",
+	"start_url": "/index.html",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#dc001b",
+    "background_color": "#dc001b",
+    "scope": "/",
+    "display": "standalone"
+}
